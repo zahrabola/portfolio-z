@@ -1,0 +1,35 @@
+:root {
+  --btn-profile: #e27d5f;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #7ec5b5;
+}
+.navbar {
+  margin-bottom: 150px;
+}
+#Profile:hover,
+#Profile-Page:hover,
+#Arch-port:hover,
+#Code-port:hover {
+  color: #e27d5f;
+}
+#name-z:hover {
+  color: #7dc2ad;
+}
+.fp-container {
+  padding: 100px 20px;
+}
