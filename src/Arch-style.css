@@ -27,9 +27,49 @@ body {
 #Code-port:hover {
   color: #e27d5f;
 }
+#contact:hover,
+#contact-page:hover,
+#arch-cv:hover,
+#front-cv:hover {
+  color: #40b3a2;
+}
+#Home:hover {
+  color: #83cdce;
+}
 #name-z:hover {
   color: #7dc2ad;
 }
+#skill-page:hover {
+  color: #bc8e9b;
+}
 .fp-container {
   padding: 100px 20px;
+}
+.row-arch {
+  padding: 20px;
+}
+#arch-col {
+  padding-top: 20px;
+}
+#bar-coding {
+  padding-bottom: 30px;
+}
+.heading {
+  margin-top: -5%;
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-profile {
+  background: var(--btn-profile);
+  border-radius: 20px;
+  padding: 10px;
 }
